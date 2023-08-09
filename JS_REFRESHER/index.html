@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
+        "use strict";
+        //d = 98;
         //var a=34;
         //var a="this is me"
         //const a= 34;
@@ -21,7 +23,7 @@
         // null 
 
         function hello(){
-            console.log("Hey harry");
+            //console.log("Hey harry");
         }
 
         let obja = {
@@ -33,21 +35,28 @@
         }
         document.addEventListener("click", function  click()
         {
-          console.log("clicked");
+          //console.log("clicked");
           //alert("hello")
           let conf = confirm("Are you sure ?");
           console.log(conf);
         })
 
-        for(let index=0;index < array.length; index++)
-        {
-            const element = array[index];
-        }
+       // for(let index=0;index < array.length; index++)
+       // {
+       //     const element = array[index];
+       // }
 
         
         //let arr = [34, 21, 23];
       //  arr.forEach(element => {
        // });
+
+       let arr = [34,21,23];
+       console.log(this)
+        function myfunc(number){
+                console.log("The number is" + this);
+       }
+       myfunc(); 
     </script>
 </head>
 <body>
