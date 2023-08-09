@@ -68,3 +68,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+To create react app we use command
+ npx create-react-app textutils
+        or 
+ npx create-react-app .
+
+ npx install package temporalily and npm install package permanently .
+
+To serve React app use command 
+  npm start
+
+To build React app for the production use command
+   npm run build
+
+If we have to do editing in react app then we will do the editing in App.js  
