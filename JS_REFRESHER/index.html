@@ -53,10 +53,14 @@
 
        let arr = [34,21,23];
        console.log(this)
-        function myfunc(number){
-                console.log("The number is" + this);
+        //function myfunc(number){
+                //console.log("The number is" + this);
+       //}
+       //myfunc(); 
+       let  myfunc = (number)=>{
+        console.log("This number is " + this);
        }
-       myfunc(); 
+       myfunc();
     </script>
 </head>
 <body>
