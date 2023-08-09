@@ -84,3 +84,6 @@ To build React app for the production use command
    npm run build
 
 If we have to do editing in react app then we will do the editing in App.js  
+
+To insall node_modules folder we can use command as :-
+      npm install 
