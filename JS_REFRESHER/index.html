@@ -57,10 +57,19 @@
                 //console.log("The number is" + this);
        //}
        //myfunc(); 
-       let  myfunc = (number)=>{
-        console.log("This number is " + this);
+       //let  myfunc = (number)=>{
+        //console.log("This number is " + this);
+       //}
+       //myfunc();
+
+       let mobj = {
+         a: this,
+         myfunc : (number)=> {
+            console.log("The number is " + this);
+         }
        }
-       myfunc();
+       mobj.myfunc();
+       console.log(mobj.a);
     </script>
 </head>
 <body>
