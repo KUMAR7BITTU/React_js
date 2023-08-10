@@ -79,6 +79,9 @@ To create react app we use command
 
 To serve React app use command 
   npm start
+   or
+  npm run start
+
 
 To build React app for the production use command
    npm run build
@@ -87,3 +90,6 @@ If we have to do editing in react app then we will do the editing in App.js
 
 To insall node_modules folder we can use command as :-
       npm install 
+
+To Run module1.js file write command as :-
+    node .\module1.js
