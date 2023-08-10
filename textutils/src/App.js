@@ -5,7 +5,8 @@ function App() {
   return (
     <>
       {/* <Navbar title="TextUtils" aboutText="About TextUtils" /> */}
-      <Navbar/>
+      <Navbar title="TextUtils" />
+      {/* <Navbar/> */}
     </>
   );
 }
