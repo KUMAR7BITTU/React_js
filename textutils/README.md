@@ -93,3 +93,5 @@ To insall node_modules folder we can use command as :-
 
 To Run module1.js file write command as :-
     node .\module1.js
+
+To use react's function based component then  type in vscode as:- rfc
