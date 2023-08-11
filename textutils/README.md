@@ -104,3 +104,5 @@ To write code as:- import PropTypes from "prop-types"
   useState is a hook .
 
   $0 is a element in Google Chrome that you have selected .
+
+  toggle style will convert dark to light and light to dark .
