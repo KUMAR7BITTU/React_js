@@ -95,3 +95,6 @@ To Run module1.js file write command as :-
     node .\module1.js
 
 To use react's function based component then  type in vscode as:- rfc
+
+To write code as:- import PropTypes from "prop-types"
+  then use shortcut as impt 
