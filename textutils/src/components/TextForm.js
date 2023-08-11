@@ -14,7 +14,8 @@ export default function TextForm(props) {
   // text = "new text"; // Wrong way to change the text
   // setText("new text"); //correct way to change the text
   return (
-    <div>
+    <>
+    <div className="container">
       <h1>{props.heading}</h1>
       <div className="mb-3">
         <textarea
@@ -25,5 +26,10 @@ export default function TextForm(props) {
       </div>
       <button className="btn btn-primary" onClick={handleUpClick}>Convert to Uppercase</button>
     </div>
+    <div className="container my-3">
+      <h1>Your text summary</h1>
+      <p>3432 words and 454934594 characters</p>
+    </div>
+    </>
   );
 }
