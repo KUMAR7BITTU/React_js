@@ -98,3 +98,7 @@ To use react's function based component then  type in vscode as:- rfc
 
 To write code as:- import PropTypes from "prop-types"
   then use shortcut as impt 
+
+  button.btn.btn-primary
+
+  useState is a hook .
