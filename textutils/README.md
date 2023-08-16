@@ -106,3 +106,6 @@ To write code as:- import PropTypes from "prop-types"
   $0 is a element in Google Chrome that you have selected .
 
   toggle style will convert dark to light and light to dark .
+
+  always use "useState" to write code as :-
+  const [,] = useState();
