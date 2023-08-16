@@ -109,3 +109,6 @@ To write code as:- import PropTypes from "prop-types"
 
   always use "useState" to write code as :-
   const [,] = useState();
+
+  we write {} bracket to write javascript and we write {} in {}
+  means like this {{}} then we are writing object in javascript .
